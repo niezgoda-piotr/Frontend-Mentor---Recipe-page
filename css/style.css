@@ -1,0 +1,86 @@
+:root {
+    --text-preset-1--font-family: "YoungSerif";
+    --text-preset-1--size: 2.5rem;
+    --text-preset-1--weight: 400;
+    --text-preset-1--line-height: 100%;
+
+    --text-preset-2--font-family: "YoungSerif";
+    --text-preset-2--size: 1.75rem;
+    --text-preset-2--weight: 400;
+    --text-preset-2--line-height: 100%;
+
+    --text-preset-3--font-family: "Outfit";
+    --text-preset-3--size: 1.25rem;
+    --text-preset-3--weight: 600;
+    --text-preset-3--line-height: 100%;
+
+    --text-preset-4--font-family: "Outfit";
+    --text-preset-4--size: 1rem;
+    --text-preset-4--weight: 400;
+    --text-preset-4--line-height: 150%;
+
+    --text-preset-4-bold--font-family: "Outfit";
+    --text-preset-4-bold--size: 1rem;
+    --text-preset-4-bold--weight: 700;
+    --text-preset-4-bold--line-height: 150%;
+
+    --color-rose-800: #7A284E;
+    --color-rose-50: #FFF7FB;
+
+    --color-stone-900: #312E2C;
+    --color-stone-600: #5F564D;
+    --color-stone-150: #E3DDD7;
+    --color-stone-100: #F3E5D7;
+
+    --color-brown-800: #854632;
+    --color-white: #FFFFFF;
+
+    --spacing-100: 0.5rem;  /*  8px  */
+    --spacing-150: 0.75rem; /*  12px  */
+    --spacing-200: 1rem;
+    --spacing-300: 1.5rem; /*  24px  */
+    --spacing-400: 2rem; /*  30px  */
+    --spacing-500: 2.5rem; /*  40px  */
+    --spacing-600: 3rem; /*  40px  */
+    --spacing-1600: 8rem; /*  128px  */
+}
+
+/* Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+
+/* *** */
+
+body {
+    font-family: "Outfit", monospace;
+    font-weight: 700;
+    /*color: var(--color-white);*/
+    /*background-color: var(--color-grey-900);*/
+
+    /*display: grid;*/
+    /*justify-items: center;*/
+    /*align-items: center;*/
+    /*height: 100vh;*/
+    /*padding: var(--spacing-300);*/
+}
+
+main {
+    /*width: 100%;*/
+    /*max-width: 24rem; !*  384px  *!*/
+    /*background-color: var(--color-grey-800);*/
+
+    /*display: grid;*/
+    /*justify-items: center;*/
+    /*align-items: center;*/
+    /*border-radius: 0.75rem;*/
+    /*padding: var(--spacing-300);*/
+}
