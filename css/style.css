@@ -231,3 +231,39 @@ main {
     line-height: var(--text-preset-4-bold--line-height);
     padding-right: var(--spacing-50);
 }
+
+.recipe-nutrition {
+    font-size: var(--text-preset-4--size);
+    font-weight: var(--text-preset-4--weight);
+    line-height: var(--text-preset-4--line-height);
+    color: var(--color-stone-600);
+}
+
+.recipe-nutrition p {
+    margin-bottom: var(--spacing-150);
+}
+
+.recipe-nutrition__table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.recipe-nutrition__nutrition-category {
+    padding-left: var(--spacing-400);
+}
+
+.recipe-nutrition__nutrition-value {
+    font-size: var(--text-preset-4-bold--size);
+    font-weight: var(--text-preset-4-bold--weight);
+    line-height: var(--text-preset-4-bold--line-height);
+    color: var(--color-brown-800);
+    padding-left: var(--spacing-200);
+}
+
+.recipe-nutrition__table--border-margin-padding {
+    border-bottom: 1px solid var(--color-stone-150);
+    padding-bottom: var(--spacing-150);
+    padding-top: var(--spacing-150);
+}
+
+
