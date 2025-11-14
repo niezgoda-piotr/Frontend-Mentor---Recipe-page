@@ -73,7 +73,7 @@ body {
 
     display: grid;
     justify-items: center;
-    height: 100vh;
+    /*height: 100vh;*/
 }
 
 main {
@@ -217,7 +217,7 @@ main {
 }
 
 .recipe-instructions__list-elem::before {
-    content: counter(my-counter)".";
+    content: counter(my-counter) ".";
     padding-left: 0.375rem;
     padding-right: 1.25rem;
     color: var(--color-rose-800);
@@ -264,6 +264,21 @@ main {
     border-bottom: 1px solid var(--color-stone-150);
     padding-bottom: var(--spacing-150);
     padding-top: var(--spacing-150);
+}
+
+@media (min-width: 615px) {
+    body {
+        padding: var(--spacing-1600) var(--spacing-600);
+    }
+
+    main {
+        padding: var(--spacing-500) var(--spacing-500) 0 var(--spacing-500);
+        border-radius: var(--spacing-300);
+    }
+
+    .recipe-picture img {
+        border-radius: var(--spacing-150);
+    }
 }
 
 
