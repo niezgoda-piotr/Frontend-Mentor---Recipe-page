@@ -93,10 +93,10 @@ main {
 }
 
 .recipe-description__heading {
-    font-family: var(--text-preset-1-mobile--font-family);
-    font-size: var(--text-preset-1-mobile--size);
-    font-weight: var(--text-preset-1-mobile--weight);
-    line-height: var(--text-preset-1-mobile--line-height);
+    font-family: var(--text-preset-2--font-family);
+    font-size: var(--text-preset-2--size);
+    font-weight: var(--text-preset-2--weight);
+    line-height: var(--text-preset-2--line-height);
     color: var(--color-stone-900);
     margin-bottom: var(--spacing-300);
 }
@@ -123,7 +123,6 @@ main {
     margin-bottom: var(--spacing-200);
 }
 
-/* TODO Need to figure out indenting of the wrapping text of list elements*/
 .recipe-prep-time__list {
     font-size: var(--text-preset-4--size);
     font-weight: var(--text-preset-4--weight);
@@ -131,23 +130,21 @@ main {
     color: var(--color-stone-600);
     margin: 0;
     padding: 0;
-    /*list-style-position: inside;*/
-    padding-inline-start: calc(var(--spacing-200) + var(--spacing-50));
+    list-style: none;
 }
 
 .recipe-prep-time__list-elem {
-    /*text-indent: 50px;*/
+    display: flex;
+    padding-right: var(--spacing-100);
+    margin-top: var(--spacing-100);
 }
 
-.recipe-prep-time__list-elem::marker {
+.recipe-prep-time__list-elem::before {
+    content: "\2022";
+    padding-left: var(--spacing-50);
+    padding-right: var(--spacing-300);
     color: var(--color-rose-800);
-    font-size: 0.75rem;
-}
-
-.recipe-prep-time__list-elem em::before {
-    content: "";
-    display: inline-block;
-    margin-right: var(--spacing-200);
+    font-size: 1.25rem;
 }
 
 .recipe-prep-time__list-elem em {
@@ -155,4 +152,5 @@ main {
     font-size: var(--text-preset-4-bold--size);
     font-weight: var(--text-preset-4-bold--weight);
     line-height: var(--text-preset-4-bold--line-height);
+    padding-right: var(--spacing-50);
 }
